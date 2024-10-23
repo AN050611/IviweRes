@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Document</title>
+        <link href="survey.css" rel="stylesheet">
+</head>
+<body>
+    <div id="box">
+        
+    <div style="display:flex; flex-direction:column;">
+        <div>
+            <h1>&#9917; Sport Day Registration Form  &#127939;</h1>
+            <img src="spt.jpeg">
+       <br><br>
+    
+       <p id="yes">Please fill in your details below:</p><br>
+       <label for="name">Name:  </label>
+       <input type="text" id="name" placeholder="please enter your name" required><br><br
+       <label for="surname">Surname:  </label>
+       <input type="text" id="surname" placeholder="please enter your surname" required><br><br>
+       <label for="age">Age: </label>
+       <input type="number" id="age" placeholder="xx" required><br><br>
+       <label for="room">Room Number: </label>
+       <input type="text" id="room" placeholder="e.g:1310A" required maxlength="5"><br><br>
+       <label for="phone">Phone Number: </label>
+       <input type="tel" id="phone" placeholder="0123456789" maxlength="10"><br><br>
+       
+       <div style="display:flex; flex-direction:row">
+        <p>Select your gender: </p>
+        <div><br>
+            <input type="radio" name="gender" id="fem">
+            <label for="fem">Female</label><br>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label><br>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+        </div>
+       </div><br>
+
+       
+        <p>&#x1F61C;What would you like to play? </p>
+        
+            <input type="checkbox" name="sport[]" id="egg">
+            <label for="egg">Egg and spoon race</label><br>
+            <input type="checkbox" name="sport[]" id="tug">
+            <label for="tug">Tug-of-War</label><br>
+            <input type="checkbox" name="sport[]" id="three">
+            <label for="three">Three-legged race</label><br>
+            <input type="checkbox" name="sport[]" id="sake">
+            <label for="sake">Sake race</label><br>
+            <input type="checkbox" name="sport[]" id="water">
+            <label for="water">Water sponge relay</label><br>
+            <input type="checkbox" name="sport[]" id="ballon">
+            <label for="ballon">Ballon stomp</label><br>
+
+        
+        <p>When do you think we should host the sport day?</p>
+         <label for="date">Preferably date: </label>
+            <input type="date" id="date"><br>
+            
+        <p>Please upload the picture of yourself:</p>
+        <label for="file">File: </label>
+        <input type="file" id="file">
+
+       <br><br>
+       <button type="submit" id="submit">Submit</button>
+       
+      
+       
+        </div>
+    </div>
+
+    <p id="res"> </p>
+    <p id="update"> </p>
+
+</div>
+    <script src="survey.js"></script>
+</body>
+</html>

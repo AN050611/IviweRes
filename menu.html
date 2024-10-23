@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Document</title>
+        <link href="menu.css" rel="stylesheet">
+</head>
+<body>
+    <div id="box">
+    <div style="display:flex; flex-direction:column">
+    <h1>WELLOCOME</h1>
+    <img src="Iviwe.jpg" >
+    <div>
+    <p>Hi, thank you for choosing our Restaurant,
+        to place your oder please fill in your relevent details below.
+    </p>
+     <label for="cell">Cellphone Number: </label>
+     <input type="tel" id="cell" required placeholder="0123456789" maxlenght="10"><br><br>
+    <input type="radio" id="ta" name="order" required>
+    <label for="ta">Takeaway</label>
+    <input type="radio" id="si" name="order" required >
+    <label for="si">Stayin</label><br><br>
+    </div>
+    </div>
+
+    <button type="submit" id="start">Start your order</button><br>
+    <p id="msg"></p>
+    
+    </div>
+    <script src="menu.js"></script>
+</body>
+</html>

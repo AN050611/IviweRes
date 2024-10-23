@@ -1,0 +1,32 @@
+#box{
+    border: 1;
+    margin: 200px;
+    margin-top: 5px;
+    background-color: lavenderblush;
+    height: 1600px;
+    width: 650px;
+}
+#menu{ 
+    text-decoration: underline;
+    text-align: center;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+    margin-top: 5px;
+}
+p{
+   font-size: larger;
+   color:deeppink;
+}
+
+#myOrder{
+    font-size: large;
+}
+
+
+#appritiation{
+    color: darkorchid;
+}

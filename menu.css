@@ -1,0 +1,30 @@
+#box{
+    margin:25%;
+    background-color: lavenderblush;
+    margin-top: 5%;
+    height: 600px;
+    width: 500px
+}
+
+img{
+    height: 250px;
+    width:250px;
+    margin: auto;
+}
+
+button{
+    font-size: larger;
+    background-color: hotpink;
+   
+}
+
+p{
+    font-size: large;
+    color:hotpink;
+}
+
+h1{
+       color:hotpink;
+       text-align: center;
+}
+

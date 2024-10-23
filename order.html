@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link href="order.css" rel="stylesheet">   
+</head>
+
+    
+        <div id="box">
+            <h1 id="menu">Iviwe Restaurant</h1><br>
+            <h2>Menu:</h2><hr>
+
+            <h4>Breakfast</h4>
+            <div style="display:flex; flex-direction:row">
+            
+                <img src="BF.jpeg" alt="Breakfast Image">
+                <div>
+                    <input type="checkbox" name="breakfast[]" id="berryOatmeal"> Berry Oatmeal<br>
+                    <input type="checkbox" name="breakfast[]" id="Toast_egg"> Toast & Scrambled egg<br>
+                    <input type="checkbox" name="breakfast[]" id="Cornflakes"> Cornflakes<br>
+                    <input type="checkbox" name="breakfast[]" id="Sandwich"> Sandwich<br><br>
+                </div>
+            </div><hr>
+
+            <h4>Drinks</h4>
+            <div style="display:flex; flex-direction:row">
+
+            <img src="drinks.jpeg">
+            <div>
+                <input type="checkbox" name="drink[]" id="Coffee"> Coffee<br>
+                <input type="checkbox" name="drink[]" id="Juice"> Juice<br>
+                <input type="checkbox" name="drink[]" id="Water"> Water<br>
+                <input type="checkbox" name="drink[]" id="coldDrink"> Cold Drink<br><br>
+            </div>
+            </div><hr>
+
+            <h4>Starters</h4>
+            <div style="display:flex; flex-direction:row">
+
+            <img src="starters.jpeg">
+            <div>
+                <input type="checkbox" name="starter[]" id="Wings"> Wings<br>
+                <input type="checkbox" name="starter[]" id="chickenLivers"> Chicken Livers<br>
+                <input type="checkbox" name="starter[]" id="Samosa"> Samosa<br>
+                <input type="checkbox" name="starter[]" id="Sushi"> Sushi<br><br>
+            </div>
+            </div><hr>
+
+            <h4>Main Dish</h4>
+            <div style="display:flex; flex-direction:row">
+
+            <img src="mainDish.jpeg">
+            <div>
+                <input type="checkbox" name="main_dish[]" id="UjeqenoSu"> Ujeqe no Su<br>
+                <input type="checkbox" name="main_dish[]" id="chickenRice"> Chicken & Rice<br>
+                <input type="checkbox" name="main_dish[]" id="papBeef"> Pap & Beef<br>
+                <input type="checkbox" name="main_dish[]" id="cheesePaster"> Cheese Paster<br><br>
+            </div>
+            </div><hr>
+
+            <h4>Desserts</h4>
+            <div style="display:flex; flex-direction:row">
+
+            <img src="Desserts.jpeg">
+            <div>
+                <input type="checkbox" name="dessert[]" id="Oreo_IceCream"> Oreo Ice-Cream<br>
+                <input type="checkbox" name="dessert[]" id="vanillaCake"> Vanilla Cake<br>
+                <input type="checkbox" name="dessert[]" id="Custard"> Custard<br>
+                <input type="checkbox" name="dessert[]" id="Jerry"> Jerry & Ultramel<br><br>
+            </div>
+            </div><hr>
+        <button type="submit" id="myOrder">Order</button><br>
+                
+        <p id="msg"></p><br>
+        <p id="ordernum"></p><br>
+        <p id="appritiation"> </p>
+        
+    </div>
+    <script src="order.js"></script>
+</body>
+</html>
+
+

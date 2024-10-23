@@ -1,0 +1,27 @@
+#box{
+
+   
+    margin: 150px;
+    margin-top: 25px;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+}
+
+p{
+    font-size: large;
+}
+
+button{
+    font-size: large;
+}
+
+#res{
+    color: rgb(55, 0, 255);
+}
+
+#update{
+    color:red;
+}
